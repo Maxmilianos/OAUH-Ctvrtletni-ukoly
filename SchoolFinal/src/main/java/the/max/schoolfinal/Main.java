@@ -5,6 +5,8 @@
  */
 package the.max.schoolfinal;
 
+import the.max.schoolfinal.ulohy.Uloha4;
+
 /**
  *
  * @author holomek_maxmilian
@@ -13,6 +15,7 @@ public class Main {
     
     public static void main(String[] args) {
         System.out.println("Test.");
+        new Uloha4().start();
     }
     
 }
