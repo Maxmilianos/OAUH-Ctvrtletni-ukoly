@@ -39,6 +39,7 @@ public class Uloha6 {
         protected List<Item> list = new ArrayList<Item>();
         
         public Batoh(int n, int p) {
+            //sss
             nosnost = n;
             pocetPozic = p;
         }
