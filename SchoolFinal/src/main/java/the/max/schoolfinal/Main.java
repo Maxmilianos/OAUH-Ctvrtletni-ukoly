@@ -5,7 +5,7 @@
  */
 package the.max.schoolfinal;
 
-import the.max.schoolfinal.ulohy.Uloha4;
+import the.max.schoolfinal.ulohy.*;
 
 /**
  *
@@ -15,7 +15,7 @@ public class Main {
     
     public static void main(String[] args) {
         System.out.println("Test.");
-        new Uloha4().start();
+        new Uloha5().start();
     }
     
 }
