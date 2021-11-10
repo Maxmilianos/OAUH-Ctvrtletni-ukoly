@@ -52,7 +52,7 @@ public class Uloha5 {
         }
         
         public int vratOdpoved(int cisloOtazky) {
-            return (answers.containsKey(cisloOtazky) ? answers.get(cisloOtazky) : -1);
+            return (answers.containsKey(cisloOtazky) ? answers.get(cisloOtazky) : 0);
         }
         
     }
@@ -96,7 +96,16 @@ public class Uloha5 {
         }
         
         public void vypisStatistiku() {
-            
+            for (int i = 1; i <= 8; i++) {
+                int p = 0, a = 0;
+                for (HlasovaciListek li : list) {
+                    int aa = li.vratOdpoved(i);
+                    p += aa;
+                    if (aa != 0)
+                        a += 1;
+                }
+                System.out.println("Otazka " + i + ": " + (double) (p / a));
+            }
         }
         
     }
