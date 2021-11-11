@@ -24,6 +24,7 @@ public class Uloha5 {
             for (int ii = 0; ii<=5; ii++) {
                 l.odpovez(ii, 1 + r.nextInt(5));
             }
+            a.list.add(l);
         }
         for (int i = 0; i<10; i++) {
             a.zobrazListek(i);
@@ -34,7 +35,7 @@ public class Uloha5 {
         
         protected int id;
         
-        protected HashMap<Integer, Integer> answers;
+        protected HashMap<Integer, Integer> answers = new HashMap<Integer, Integer>();
         
         public HlasovaciListek(int id/*, int[] answers*/) {
             this.id = id;
