@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Utils {
 
-    private static Random r = new Random();
+    public static Random r = new Random();
 
     private static String[] names = new String[] {"Bill", "Jozo", "Fera", "Fred", "Petr", "Max", "Luky", "Kenoi", "Mark", "Filip", "Petr", "Tom"};
 

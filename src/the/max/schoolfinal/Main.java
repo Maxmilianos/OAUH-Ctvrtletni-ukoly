@@ -14,8 +14,8 @@ import the.max.schoolfinal.ulohy.*;
 public class Main {
     
     public static void main(String[] args) {
-        System.out.println("Test.");
-        new Uloha15().start();
+        System.out.println("Starting... ");
+        new Uloha12().start();
     }
     
 }
