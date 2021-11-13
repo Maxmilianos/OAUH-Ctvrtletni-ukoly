@@ -38,6 +38,13 @@ public class Uloha15 {
             list.remove(k);
         }
 
+        public void vypisKontakty(String prvniPismeno) {
+            for (Kontakt k : getList()) {
+                if (k.jmeno.startsWith(prvniPismeno))
+                    System.out.println(k.toString());
+            }
+        }
+
         public ArrayList<Kontakt> getList() {
             return list;
         }

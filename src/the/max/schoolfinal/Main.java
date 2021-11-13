@@ -6,6 +6,7 @@
 package the.max.schoolfinal;
 
 import the.max.schoolfinal.ulohy.*;
+import the.max.schoolfinal.utils.Utils;
 
 /**
  *
@@ -15,7 +16,8 @@ public class Main {
     
     public static void main(String[] args) {
         System.out.println("Starting... ");
-        new Uloha12().start();
+        Utils.load();
+        new Uloha3().start();
     }
     
 }
