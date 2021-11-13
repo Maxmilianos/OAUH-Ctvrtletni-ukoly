@@ -1,5 +1,6 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="School-Final" type="Application" factoryName="Application">
+  <configuration default="false" name="School" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\OpenJDK\jdk-8.0.262.10-hotspot\jre" />
     <option name="MAIN_CLASS_NAME" value="the.max.schoolfinal.Main" />
     <module name="school-final-project" />
     <method v="2">
