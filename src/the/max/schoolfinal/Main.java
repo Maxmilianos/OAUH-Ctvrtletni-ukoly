@@ -15,7 +15,7 @@ public class Main {
     
     public static void main(String[] args) {
         System.out.println("Test.");
-        new Uloha5().start();
+        new Uloha14().start();
     }
     
 }
