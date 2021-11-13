@@ -1,7 +1,6 @@
 # school-final-project
 OAUH - 9. 11. 2021
 
-#Úlohy
 Uloha 4  - *** - [ZDE](src/the/max/schoolfinal/ulohy/Uloha4.java) <br>
 Uloha 5  - *** - [ZDE](src/the/max/schoolfinal/ulohy/Uloha5.java) <br>
 Uloha 6  - *   - [ZDE](src/the/max/schoolfinal/ulohy/Uloha6.java) <br>
