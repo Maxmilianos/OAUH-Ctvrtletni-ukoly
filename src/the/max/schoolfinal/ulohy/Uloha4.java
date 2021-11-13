@@ -5,6 +5,8 @@
  */
 package the.max.schoolfinal.ulohy;
 
+import the.max.schoolfinal.utils.Utils;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -19,9 +21,8 @@ public class Uloha4 {
     
     public void start() {
         List<Enemy> l = new ArrayList<Enemy>();
-        String[] names = new String[] {"Fred", "Eva", "Jozo", "Fera"};
         for (int i = 0; i < 5; i++) {
-            l.add(new Enemy(names[r.nextInt(names.length-1)], r.nextInt(50), r.nextInt(50), 0));
+            l.add(new Enemy(Utils.getRandomName(), r.nextInt(50), r.nextInt(50), 0));
         }
         Gun gun = new Gun(25, 25);
         gun.scan(l, 0);
