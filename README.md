@@ -1,4 +1,4 @@
-# school-final-project
+# OAUH-Ctvrtletni-ukoly
 OAUH - 9. 11. 2021<br><br>
 Uloha 2  - ***  - [ZDE](src/the/max/schoolfinal/ulohy/Uloha2.java)  100% <br>
 Uloha 3  - **   - [ZDE](src/the/max/schoolfinal/ulohy/Uloha3.java)  100% <br>
