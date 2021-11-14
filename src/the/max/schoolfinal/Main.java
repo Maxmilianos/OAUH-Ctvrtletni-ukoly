@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Starting... ");
         Utils.load();
-        new Uloha3().start();
+        new Uloha2().start();
     }
     
 }
